@@ -1,0 +1,149 @@
+/*benefits background color: #f0efef
+yellow: #f9e42e
+dark blue: #033048
+light grey: #606161
+almost black: #121212
+
+Font: Open Sans (Google Font: https://www.google.com/fonts#UsePlace:use/Collection:Open+Sans)
+Weight: Light, Light Italic, Semibold, Extrabold
+
+"Relaxr" - Extra bold, 24px
+"Get piece of mind with a single tap" - Semibold, 24px
+"Get it Now" - Extra bold, 14px. 5px border radius
+"Benefits" - Semibold, 20px
+"The perfect personal assistant. Relaxr does your job for you so you can enjoy life as it is meant to be." - Light, 13px
+• Schedule meetings for you
+• Excel automation to complete your work for you
+• Responds to emails on your behalf
+• Does all your work for you with our revolutionary AI technology" - Light, 13px
+
+"“Relaxr changed my life. I’ve been able to travel the world, spend limited time working and my boss keeps thanking me for crushing work.”" - Light Italic, 18px
+"- Amanda, Intuit " - semibold, 18px
+
+"Sign Up Now!" - extra bold, 12px, 5px border radius
+
+Relaxr - extra bold, 24px
+"Copyright 2015. Relaxr." - 9px, semibold
+*/
+#allcontent{
+	font-family: Open Sans;
+}
+header{
+	background-image: url("../images/header_bg.jpg");
+	background-position: center;
+	background-size: cover;
+	height: 500px;
+	margin-top: -25px;
+}
+header h1{
+	font-size: 24px;
+	margin-left: 50px;
+	padding-top: 50px;
+	font-weight: 800;
+}
+header h2{
+	text-align: center;
+	padding-top: 80px;
+	font-size: 24px;
+	font-weight: 400;
+}
+header div{
+	text-align: center;
+	padding-top: 80px;
+}
+header div a{
+	text-decoration: none;
+	color: #033048;
+	background-color: #f9e42e;
+	padding-top: 10px ;
+	padding-bottom: 10px;
+	padding-right: 20px ; 
+	padding-left:20px;
+	border-radius: 5px;
+	font-size: 14px;
+	font-weight: 700;
+}
+.benefits{
+	height: 300px;
+	background-color: #f0efef;
+	margin-top: -20px;
+}
+.benefits h2{
+	margin-left: 50px;
+	padding-top: 40px;
+	font-weight: 600;
+	font-size: 20px;
+	color: #033048;
+}
+.benefits p{
+	margin-left: 50px;
+	font-size: 13px;
+	font-weight: 300;
+}
+.benefits ul{
+	margin-left: 70px;
+	font-size: 13px;
+	font-weight: 300;
+}
+.quote{
+	height:250px;
+	background-image: url("../images/testimonial_bg.jpg");
+	margin-top: -20px;
+	background-position: center;
+	background-size: cover;
+	text-align: center;
+}
+.quote p{
+	padding-top: 50px;
+	color: #606161;
+	font-size: 18px;
+	font-weight: 500;
+	font-style: italic;
+}
+.quote h3{
+	font-size: 18px;
+	color: white;
+	font-weight: 500;
+}
+.link{
+	height:100px;
+	background-color: #f9e42e;
+}
+.link div{
+	text-align: center;
+	padding-top: 35px;
+}
+.link div a{
+	text-decoration: none;
+	background-color: #033048;
+	color: white;
+	padding-top: 10px ;
+	padding-bottom: 10px;
+	padding-right: 30px;
+	padding-left: 30px;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 800;
+}
+footer{
+	height: 300px;
+	background-color: #121212;
+	margin-top: -20px;
+	text-align: center;
+}
+footer h2{
+	padding-top: 50px;
+	color:#f9e42e;
+	font-size: 24px;
+	font-weight: 800;
+}
+footer h4{
+	padding-top: 100px;
+	font-size: 9px;
+	color: white;
+	font-weight: 500;
+}
+.Facebook{
+	width: 43px;
+	display: inline-block;
+}
